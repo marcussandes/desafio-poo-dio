@@ -17,6 +17,11 @@ public class Main {
         curso2.setDescricao("Descrição curso JavaScript");
         curso2.setCargaHoraria(4);
 
+        Curso curso3 = new Curso();
+        curso3.setTitulo("Curso C++");
+        curso3.setDescricao("Descrição curso C++");
+        curso3.setCargaHoraria(6);
+
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Java");
         mentoria.setDescricao("Descrição mentoria de Java");
@@ -26,6 +31,7 @@ public class Main {
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria);
+        System.out.println();
 
     }
 }
